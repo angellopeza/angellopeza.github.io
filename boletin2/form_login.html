@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de acceso</title>
+</head>
+<body>
+  <h1>Iniciar sesión</h1>
+
+  <form action="https://lm.ciclo.iesnervion.es/login.php" method="POST">
+    <label for="usuario">Nombre de usuario o Email:</label>
+      <input type="text" id="usuario" name="usuario" placeholder="usuario@dominio.com" required><br><br>
+
+    <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="password" required><br><br>
+
+    <label for="recordar">Recordar sesión</label><br><br>
+      <input type="checkbox" id="recordar" name="recordar" value="si">
+
+    <button type="submit">Iniciar Sesión</button>
+  </form>
+</body>
+</html>
