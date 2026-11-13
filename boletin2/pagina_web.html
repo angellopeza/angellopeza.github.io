@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de prueba de HTML 5</title>
+</head>
+<body>
+    <form action="https://lm.ciclo.iesnervion.es/registroweb.php" method="GET" enctype="multipart/form-data">
+        <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" autofocus required> </br>
+        <label for="email">Correo electronico:</label>
+            <input type="email" name="email"> </br>
+        <label for="web">URL:</label>
+            <input type="url" id="web" name="url" placeholder="Escribe la URL de tu página web personal"></br>
+        <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha"></br>
+        <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="tiempo"><br>
+        <label for="fechahora">Fecha / Hora:</label>
+            <input type="datetime-local" id="fechahora" name="fechahora"><br>
+        <label for="mes">Mes:</label>
+            <input type="month" id="month" name="mes"><br>
+        <label for="semana">Semana:</label>
+            <input type="week" id="week" name="semana"><br>
+        <label for="number">Numero:</label>
+            <input type="number" id="number" name="numero" min="-10" max="10"></br>
+        <label for="Telefono">Teléfono:</label>
+            <input type="tel" id="tel" name="telefono"></br>
+        <label for="search">Busqueda:</label>
+            <input type="search" id="search" name="busqueda" /> <br>
+        <label for="color">Color favorito:</label>
+            <input type="color" id="color" name="color"><br> 
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
